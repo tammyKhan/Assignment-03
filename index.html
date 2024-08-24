@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Document</title>
+  <title>Rinderio</title>
   <!-- Google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,57 +46,83 @@ bg-[#737373]
   
 <body class="manrope-font bg-gray-100 ">
  
-  <header class="w-11/12 mx-auto ">
-   <div class="navbar">
-    <div class="navbar-start">
-        <div class="bg-[#ABEF5F] rotate-45 rounded-full w-8 h-8 text-center">
-          <i class="fa-solid fa-arrow-up "></i>
-        </div>
-        <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
-      </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1 text-gray-500 text-sm font-[500]">
-          <li class=" text-black font-bold"><a>Home</a></li>
-          <li><a>Services</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>Blogs</a></li>
-          <li><a>Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="navbar-end">
-       <div class="hidden md:flex lg:flex justify-center items-center  gap-3">
-        
-          <div class="bg-[#FFFFFF] rounded-full text-center w-8 h-8">
-            <i class="fa-solid fa-magnifying-glass "></i>
+  <header class="container mx-auto ">
+    <!-- Navbar -->
+   <nav>
+    <div class="navbar">
+      <div class="navbar-start">
+          <div class="bg-[#ABEF5F] rotate-45 rounded-full w-8 h-8 text-center">
+            <i class="fa-solid fa-arrow-up "></i>
           </div>
-          <div class="bg-[#FFFFFF] rounded-full  text-center w-8 h-8">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </div>
-        
-
-        <a class=" btn bg-[#ABEF5F] rounded-full text-base font-[800] ">Book Consult
-          <div class="bg-black text-white rotate-45 rounded-full w-7 h-7 text-center">
-          <i class="fa-solid fa-arrow-up "></i>
+          <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
         </div>
-          </a>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-gray-500 text-sm font-[500]">
+            <li class=" text-black font-bold"><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+         <div class="hidden md:flex lg:flex justify-center items-center  gap-3">
+          
+            <div class="bg-[#FFFFFF] rounded-full text-center w-8 h-8">
+              <i class="fa-solid fa-magnifying-glass "></i>
+            </div>
+            <div class="bg-[#FFFFFF] rounded-full  text-center w-8 h-8">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          
+  
+          <a class=" btn bg-[#ABEF5F] rounded-full text-base font-[800] ">Book Consult
+            <div class="bg-black text-white rotate-45 rounded-full w-7 h-7 text-center">
+            <i class="fa-solid fa-arrow-up "></i>
+          </div>
+            </a>
+         </div>
        </div>
-     </div>
-
-     <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-[#FFFFFF] text-center rounded-full">
-          <i class="fa-solid fa-bars"></i>
+  
+       <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-[#FFFFFF] text-center rounded-full">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+            <li ><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
         </div>
-        <ul
-          tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
-          <li ><a>Home</a></li>
-          <li><a>Services</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>Blogs</a></li>
-          <li><a>Contact Us</a></li>
-        </ul>
       </div>
-    </div>
+   </nav>
+
+    <!-- Banner section -->
+     <section>
+      <div class="hero bg-base-200 min-h-screen">
+        <div class="hero-content flex-col ">
+          <img
+            src="./assets/banner.png"
+            class="max-w-sm rounded-lg " />
+          <div class="text-center">
+            <h1 class="text-5xl font-[900]">A barn house of this design has a <br> striking appearance</h1>
+            <p class="py-6 text-sm font-bold text-gray-500">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <a class=" btn bg-[#ABEF5F80] rounded-full text-base font-[800] w-full lg:w-auto md:w-auto">View Details
+              <div class="bg-[#ABEF5F] rotate-45 rounded-full w-7 h-7 text-center">
+              <i class="fa-solid fa-arrow-up "></i>
+            </div>
+              </a>
+             
+          </div>
+        </div>
+      </div>
+     </section>
    </header>
    <main>
 
